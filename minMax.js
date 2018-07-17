@@ -1,5 +1,4 @@
 'use strict';
-const numList1 = [-5, 28, 98, -20013, 0.7878, 22, 115];
 
 function max(numbers) {
 	let currentMax = numbers[0];
@@ -8,9 +7,8 @@ function max(numbers) {
 	while (i < numbers.length) {
 		if (numbers[i] > currentMax) {
 			currentMax = numbers[i];
-			i++;
 		}
-
+		i++;
 	}
 	return currentMax;
 }
@@ -24,9 +22,9 @@ function min(numbers) {
 	while (i < numbers.length) {
 		if (numbers[i] < currentMin) {
 			currentMin = numbers[i];
-			i++;
-		}
 
+		}
+		i++;
 	}
 	return currentMin;
 }
